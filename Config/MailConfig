@@ -1,0 +1,11 @@
+[EMAIL]
+mailhost = mail.nonobank.com
+port = 995
+mailuser = goujingwei
+mailpass = It@201907
+sender = goujingwei@nonobank.com
+subject = TestReport
+content = 麦芽UI自动化测试报告......
+receiver = IT_QC_Group@nonobank.com
+onoff = 0
+

@@ -1,0 +1,30 @@
+[HTTP]
+host = 192.168.7.128
+port = 19003
+timeout = 3
+header = {"Content-Type":"application/json","ip":"192.168.241.26","clientType":"Android","clientVersion":"7.0","phoneBrand":"Meizu","phoneModel":"PRO 5","deviceId":"867905025641566","macAddress":"68:3e:34:1c:59:e3","isp":"Q01DQw==","network":"wifi","source":"2c:5b:b8:02:b5:55","longitude":"121.51544","latitude":"31.210809","bizCode":"maiya","guid":"","user-agent":""}
+jwt = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwMDcwNjMsInNlYyI6ImQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0MjdlIiwiaWF0IjoxNTY5MzE3ODE5LCJleHAiOjE1Njk0MDQyMTl9.Cp_dnKYmED3Vnh583kacRCjrnmfXbKI6Wqz0EOBcr0w
+loginurl = http://192.168.7.128:19003/user/login
+login_params = {
+	"loginName": "${mobile}",
+	"passWord":"",
+	"loginType":"mobileLogin",
+	"mobileCode":"888888",
+	"imgKey":"",
+	"imgCode":"",
+	"tokenId":"",
+	"blackBox":"${mobile}",
+	"channelId":""}
+creatordurl = http://192.168.7.128:19003/maiya/order/apply/create
+creatordparams = {
+	"payType":"1",
+	"projectName":"割双眼皮",
+	"applyParts":"6",
+	"channelNo":"YL9999999999999",
+	"merchantId":"978",
+	"productId":"8",
+	"applyAmount":"1000",
+	"projectType":"1"}
+ocrurl = http://192.168.7.128:19003/user/auth/certification
+ocrparams = {"realName":"测试","idNum":""}
+

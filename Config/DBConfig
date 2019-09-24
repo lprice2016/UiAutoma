@@ -1,0 +1,21 @@
+[DATABASE]
+
+dbNonoCofig= {
+        "host": "192.168.3.155",
+        "user": "tester",
+        "password": "uEvuv4#k",
+        "port": 3306,
+        "db": "db_nono"
+    }
+dbMaiYaCofig= {
+        "host": "192.168.3.155",
+        "user": "u_maiya_new",
+        "password": "STB@maiya123",
+        "port": 3308,
+        "db": "maiya_app"
+    }
+[SQL]
+#设置活体分sql
+SetHTFen = UPDATE maiya_app.ord_order set face_recognise_score='99',face_recognise_result='1' where  order_no='ZZ' or user_id='{}';
+#根据手机号码查询UserId
+GetUserIdByMobile = SELECT id from db_nono.user_info WHERE mobile_num = "{}";
