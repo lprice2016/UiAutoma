@@ -1,4 +1,4 @@
-requests==2.21.0
+requests==2.31.0
 baidu_aip==2.2.13.0
 uiautomator2==1.0.1.dev1
 mongoengine==0.18.2
